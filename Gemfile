@@ -1,12 +1,12 @@
 source 'http://rubygems.org'
 ruby '2.3.3'
 
-gem 'rails', '4.2.7.1'
+gem 'rails', '5.0.1'
 
 # Gems used only for assets and not required
 # in production environments by default.
 group :assets do
-  gem 'sass-rails', '>= 3.2'
+  gem 'sass-rails', '>= 5.0.6'
   gem 'therubyracer'
   gem 'uglifier', '>= 1.0.3'
 
@@ -16,8 +16,8 @@ group :assets do
 end
 
 gem 'bootstrap-sass', '~> 3.3.6'
-gem 'bootstrap-social-rails'
-gem 'jquery-rails'
+gem 'bootstrap-social-rails', '>= 4.12.0'
+gem 'jquery-rails', '>= 4.2.2'
 
 gem 'http_accept_language'
 
@@ -25,9 +25,9 @@ gem 'http_accept_language'
 gem 'mongoid'
 
 # Omniauth
-gem 'omniauth'
-gem 'omniauth-github'
-gem 'omniauth-twitter'
+gem 'omniauth', '>= 1.6.1'
+gem 'omniauth-github', '>= 1.2.3'
+gem 'omniauth-twitter', '>= 1.4.0'
 
 # Puma
 gem 'puma'
@@ -40,11 +40,11 @@ gem 'dalli'
 gem 'memcachier'
 
 # Pagination
-gem 'kaminari', '~> 1.0'
+gem 'kaminari', '~> 1.0', '>= 1.0.1'
 gem 'kaminari-mongoid', '~> 1.0'
 
 # Notify exceptions
-gem 'exception_notification'
+gem 'exception_notification', '>= 4.2.1'
 
 # Static pages
 gem 'high_voltage'
@@ -68,7 +68,7 @@ group :test do
 end
 
 group :development do
-  gem 'better_errors'
+  gem 'better_errors', '>= 2.1.1'
   gem 'binding_of_caller'
 end
 
