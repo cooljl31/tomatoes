@@ -1,28 +1,28 @@
 source 'http://rubygems.org'
 ruby '2.3.3'
 
-gem 'rails', '4.2.7.1'
+gem 'rails', '5.2.4.3'
 
 # Gems used only for assets and not required
 # in production environments by default.
 group :assets do
-  gem 'sass-rails', '>= 3.2'
+  gem 'sass-rails', '>= 5.0.6'
   gem 'therubyracer'
   gem 'uglifier', '>= 1.0.3'
 
   # Upload assets to AWS S3
-  gem 'asset_sync'
+  gem 'asset_sync', '>= 2.0.0'
   gem 'fog-aws'
 end
 
 gem 'bootstrap-sass', '~> 3.3.6'
-gem 'bootstrap-social-rails'
-gem 'jquery-rails'
+gem 'bootstrap-social-rails', '>= 4.12.0'
+gem 'jquery-rails', '>= 4.2.2'
 
 gem 'http_accept_language'
 
 # Mongo
-gem 'mongoid'
+gem 'mongoid', '>= 6.0.0'
 
 # Omniauth
 gem 'omniauth'
@@ -30,7 +30,7 @@ gem 'omniauth-github'
 gem 'omniauth-twitter'
 
 # Puma
-gem 'puma'
+gem 'puma', '>= 3.12.6'
 
 # New Relic
 gem 'newrelic_rpm'
@@ -40,11 +40,11 @@ gem 'dalli'
 gem 'memcachier'
 
 # Pagination
-gem 'kaminari', '~> 1.0'
-gem 'kaminari-mongoid', '~> 1.0'
+gem 'kaminari', '~> 1.0', '>= 1.0.1'
+gem 'kaminari-mongoid', '~> 1.0', '>= 1.0.1'
 
 # Notify exceptions
-gem 'exception_notification'
+gem 'exception_notification', '>= 4.2.1'
 
 # Static pages
 gem 'high_voltage'
