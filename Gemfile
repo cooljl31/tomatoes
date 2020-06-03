@@ -40,7 +40,7 @@ gem 'dalli'
 gem 'memcachier'
 
 # Pagination
-gem 'kaminari', '~> 1.0'
+gem 'kaminari', '~> 1.2', '>= 1.2.1'
 gem 'kaminari-mongoid', '~> 1.0'
 
 # Notify exceptions
