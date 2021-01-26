@@ -27,7 +27,7 @@ gem 'mongoid'
 # Omniauth
 gem 'omniauth'
 gem 'omniauth-github'
-gem 'omniauth-twitter'
+gem 'omniauth-twitter', '>= 1.4.0'
 
 # Puma
 gem 'puma'
