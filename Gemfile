@@ -53,8 +53,8 @@ gem 'rdiscount'
 # Async tasks
 gem 'sucker_punch', '~> 2.0'
 
-gem 'octokit'
-gem 'twitter'
+gem 'octokit', '>= 4.6.2'
+gem 'twitter', '>= 6.1.0'
 
 group :production do
   gem 'rails_12factor'
