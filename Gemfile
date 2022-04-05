@@ -30,7 +30,7 @@ gem 'omniauth-github'
 gem 'omniauth-twitter'
 
 # Puma
-gem 'puma'
+gem 'puma', '>= 4.3.12'
 
 # New Relic
 gem 'newrelic_rpm'
