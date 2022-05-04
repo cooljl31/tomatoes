@@ -1,12 +1,12 @@
 source 'http://rubygems.org'
 ruby '2.3.3'
 
-gem 'rails', '4.2.7.1'
+gem 'rails', '5.2.7.1'
 
 # Gems used only for assets and not required
 # in production environments by default.
 group :assets do
-  gem 'sass-rails', '>= 3.2'
+  gem 'sass-rails', '>= 5.0.6'
   gem 'therubyracer'
   gem 'uglifier', '>= 1.0.3'
 
@@ -40,7 +40,7 @@ gem 'dalli'
 gem 'memcachier'
 
 # Pagination
-gem 'kaminari', '~> 1.0'
+gem 'kaminari', '~> 1.0', '>= 1.0.1'
 gem 'kaminari-mongoid', '~> 1.0'
 
 # Notify exceptions
