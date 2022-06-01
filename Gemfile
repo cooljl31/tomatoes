@@ -1,12 +1,12 @@
 source 'http://rubygems.org'
 ruby '2.3.3'
 
-gem 'rails', '4.2.7.1'
+gem 'rails', '5.0.0'
 
 # Gems used only for assets and not required
 # in production environments by default.
 group :assets do
-  gem 'sass-rails', '>= 3.2'
+  gem 'sass-rails', '>= 5.0.6'
   gem 'therubyracer'
   gem 'uglifier', '>= 1.0.3'
 
