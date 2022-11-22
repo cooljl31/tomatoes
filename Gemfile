@@ -36,7 +36,7 @@ gem 'puma'
 gem 'newrelic_rpm'
 
 # Memcached
-gem 'dalli'
+gem 'dalli', '>= 3.2.3'
 gem 'memcachier'
 
 # Pagination
