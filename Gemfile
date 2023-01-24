@@ -1,12 +1,12 @@
 source 'http://rubygems.org'
 ruby '2.3.3'
 
-gem 'rails', '4.2.7.1'
+gem 'rails', '6.1.7.1'
 
 # Gems used only for assets and not required
 # in production environments by default.
 group :assets do
-  gem 'sass-rails', '>= 3.2'
+  gem 'sass-rails', '>= 5.0.8'
   gem 'therubyracer'
   gem 'uglifier', '>= 1.0.3'
 
@@ -22,7 +22,7 @@ gem 'jquery-rails'
 gem 'http_accept_language'
 
 # Mongo
-gem 'mongoid'
+gem 'mongoid', '>= 7.0.12'
 
 # Omniauth
 gem 'omniauth'
@@ -40,11 +40,11 @@ gem 'dalli'
 gem 'memcachier'
 
 # Pagination
-gem 'kaminari', '~> 1.0'
-gem 'kaminari-mongoid', '~> 1.0'
+gem 'kaminari', '~> 1.0', '>= 1.0.1'
+gem 'kaminari-mongoid', '~> 1.0', '>= 1.0.1'
 
 # Notify exceptions
-gem 'exception_notification'
+gem 'exception_notification', '>= 4.4.0'
 
 # Static pages
 gem 'high_voltage'
