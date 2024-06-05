@@ -1,23 +1,23 @@
 source 'http://rubygems.org'
 ruby '2.3.3'
 
-gem 'rails', '4.2.7.1'
+gem 'rails', '4.2.8'
 
 # Gems used only for assets and not required
 # in production environments by default.
 group :assets do
-  gem 'sass-rails', '>= 3.2'
+  gem 'sass-rails', '>= 5.0.7'
   gem 'therubyracer'
   gem 'uglifier', '>= 1.0.3'
 
   # Upload assets to AWS S3
   gem 'asset_sync'
-  gem 'fog-aws'
+  gem 'fog-aws', '>= 1.3.0'
 end
 
 gem 'bootstrap-sass', '~> 3.3.6'
 gem 'bootstrap-social-rails'
-gem 'jquery-rails'
+gem 'jquery-rails', '>= 4.3.0'
 
 gem 'http_accept_language'
 
@@ -40,11 +40,11 @@ gem 'dalli'
 gem 'memcachier'
 
 # Pagination
-gem 'kaminari', '~> 1.0'
+gem 'kaminari', '~> 1.1', '>= 1.1.0'
 gem 'kaminari-mongoid', '~> 1.0'
 
 # Notify exceptions
-gem 'exception_notification'
+gem 'exception_notification', '>= 4.2.2'
 
 # Static pages
 gem 'high_voltage'
