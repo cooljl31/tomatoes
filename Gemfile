@@ -12,7 +12,7 @@ group :assets do
 
   # Upload assets to AWS S3
   gem 'asset_sync'
-  gem 'fog-aws'
+  gem 'fog-aws', '>= 3.29.0'
 end
 
 gem 'bootstrap-sass', '~> 3.3.6'
