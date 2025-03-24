@@ -1,12 +1,12 @@
 source 'http://rubygems.org'
 ruby '2.3.3'
 
-gem 'rails', '4.2.7.1'
+gem 'rails', '7.0.0'
 
 # Gems used only for assets and not required
 # in production environments by default.
 group :assets do
-  gem 'sass-rails', '>= 3.2'
+  gem 'sass-rails', '>= 6.0.0'
   gem 'therubyracer'
   gem 'uglifier', '>= 1.0.3'
 
@@ -44,7 +44,7 @@ gem 'kaminari', '~> 1.0'
 gem 'kaminari-mongoid', '~> 1.0'
 
 # Notify exceptions
-gem 'exception_notification'
+gem 'exception_notification', '>= 5.0.0'
 
 # Static pages
 gem 'high_voltage'
