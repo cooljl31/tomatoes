@@ -1,12 +1,12 @@
 source 'http://rubygems.org'
 ruby '2.3.3'
 
-gem 'rails', '4.2.7.1'
+gem 'rails', '4.2.8'
 
 # Gems used only for assets and not required
 # in production environments by default.
 group :assets do
-  gem 'sass-rails', '>= 3.2'
+  gem 'sass-rails', '>= 5.0.7'
   gem 'therubyracer'
   gem 'uglifier', '>= 1.0.3'
 
@@ -17,7 +17,7 @@ end
 
 gem 'bootstrap-sass', '~> 3.3.6'
 gem 'bootstrap-social-rails'
-gem 'jquery-rails'
+gem 'jquery-rails', '>= 4.3.0'
 
 gem 'http_accept_language'
 
@@ -61,7 +61,7 @@ group :production do
 end
 
 group :test do
-  gem 'coveralls', require: false
+  gem 'coveralls', '>= 0.8.23', require: false
   gem 'minitest-reporters'
   gem 'mocha', require: false
   gem 'simplecov', require: false
