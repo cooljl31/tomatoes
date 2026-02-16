@@ -22,11 +22,11 @@ gem 'jquery-rails'
 gem 'http_accept_language'
 
 # Mongo
-gem 'mongoid'
+gem 'mongoid', '>= 7.6.1'
 
 # Omniauth
 gem 'omniauth'
-gem 'omniauth-github'
+gem 'omniauth-github', '>= 1.3.0'
 gem 'omniauth-twitter'
 
 # Puma
@@ -41,7 +41,7 @@ gem 'memcachier'
 
 # Pagination
 gem 'kaminari', '~> 1.0'
-gem 'kaminari-mongoid', '~> 1.0'
+gem 'kaminari-mongoid', '~> 1.0', '>= 1.0.2'
 
 # Notify exceptions
 gem 'exception_notification'
@@ -53,8 +53,8 @@ gem 'rdiscount'
 # Async tasks
 gem 'sucker_punch', '~> 2.0'
 
-gem 'octokit'
-gem 'twitter'
+gem 'octokit', '>= 4.23.0'
+gem 'twitter', '>= 6.2.0'
 
 group :production do
   gem 'rails_12factor'
